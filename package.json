@@ -1,0 +1,37 @@
+{
+  "name": "st-patricks-day-theme",
+  "displayName": "☘️ St. Patrick's Day Theme",
+  "description": "A lucky green theme for St. Patrick's Day — leprechauns, clovers, and shamrocks await!",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "st patricks day",
+    "green",
+    "shamrock",
+    "leprechaun",
+    "clover",
+    "irish"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "☘️ St. Patrick's Day",
+        "uiTheme": "vs-dark",
+        "path": "./themes/st-patricks-day-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "publisher": "Kobber",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
