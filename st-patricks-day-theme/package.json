@@ -2,7 +2,7 @@
   "name": "st-patricks-day-theme",
   "displayName": "☘️ St. Patrick's Day Theme",
   "description": "A lucky green theme for St. Patrick's Day — leprechauns, clovers, and shamrocks await!",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.60.0"
   },
