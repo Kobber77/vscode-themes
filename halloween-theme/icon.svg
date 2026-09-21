@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="16" fill="#14091F"/>
+
+  <!-- Stem -->
+  <path d="M60 34 Q62 22 72 20 Q70 30 68 36 Z" fill="#8DF56B"/>
+
+  <!-- Pumpkin body: three overlapping lobes -->
+  <ellipse cx="64" cy="74" rx="40" ry="34" fill="#E0620A"/>
+  <ellipse cx="46" cy="74" rx="22" ry="33" fill="#FF7518"/>
+  <ellipse cx="82" cy="74" rx="22" ry="33" fill="#FF7518"/>
+  <ellipse cx="64" cy="74" rx="20" ry="35" fill="#FF8C3A"/>
+
+  <!-- Eyes -->
+  <polygon points="46,62 58,68 44,74" fill="#14091F"/>
+  <polygon points="82,62 70,68 84,74" fill="#14091F"/>
+
+  <!-- Nose -->
+  <polygon points="64,74 59,82 69,82" fill="#14091F"/>
+
+  <!-- Jagged grin -->
+  <path d="M40 86 L50 92 L56 86 L64 94 L72 86 L78 92 L88 86 Q80 104 64 104 Q48 104 40 86 Z" fill="#14091F"/>
+
+  <!-- Purple glow accents -->
+  <circle cx="24" cy="26" r="3" fill="#B26CFF" opacity="0.8"/>
+  <circle cx="104" cy="22" r="2" fill="#B26CFF" opacity="0.6"/>
+  <circle cx="110" cy="40" r="2.5" fill="#B26CFF" opacity="0.7"/>
+</svg>

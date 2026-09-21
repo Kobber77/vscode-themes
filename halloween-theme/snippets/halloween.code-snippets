@@ -1,0 +1,31 @@
+{
+  "Spooky banner": {
+    "prefix": "spooky",
+    "body": [
+      "$LINE_COMMENT 🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃",
+      "$LINE_COMMENT 👻  ${1:Beware: spooky code below}",
+      "$LINE_COMMENT 🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃🎃",
+      "$0"
+    ],
+    "description": "Pumpkin comment banner"
+  },
+  "ASCII pumpkin": {
+    "prefix": "pumpkin",
+    "body": [
+      "$LINE_COMMENT      ___",
+      "$LINE_COMMENT    .-\"   \"-.",
+      "$LINE_COMMENT   / ^     ^ \\\\",
+      "$LINE_COMMENT  |  (o) (o)  |",
+      "$LINE_COMMENT  |  \\\\  ^  /  |",
+      "$LINE_COMMENT   \\\\ '-...-' /",
+      "$LINE_COMMENT    '-.___.-'   ${1:$TM_FILENAME}",
+      "$0"
+    ],
+    "description": "ASCII jack-o'-lantern comment"
+  },
+  "Tombstone TODO": {
+    "prefix": "rip",
+    "body": ["$LINE_COMMENT TODO ⚰️ RIP ${1:this hack}, buried ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}$0"],
+    "description": "TODO with a tombstone"
+  }
+}
