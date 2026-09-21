@@ -1,42 +1,43 @@
-# ☘️ St. Patrick's Day Theme
+# 🎉 VS Code Themes
 
-A lucky VS Code color theme inspired by St. Patrick's Day — leprechauns, clovers, and shamrocks, built around the Irish flag palette.
+A collection of VS Code color themes. Each theme is its own extension with its own icon and `.vsix`, so you can install only the ones you want.
 
-## Color Palette
-
-| Role | Color |
-|------|-------|
-| Background | `#0D2A14` — deep forest green |
-| Activity Bar | `#009A44` — Irish green |
-| Keywords | `#FF8200` — Irish orange |
-| Strings | `#4CCA7A` — light green |
-| Functions | `#FFB347` — soft orange |
-| Types / Classes | `#009A44` — Irish green |
-| Comments | `#3D7A52` — muted green (italic) |
-| Numbers | `#FFD700` — lucky gold |
-| Foreground | `#FFFFFF` — white |
+| Theme | Folder | Vibe |
+|-------|--------|------|
+| ☘️ St. Patrick's Day | [`st-patricks-day-theme/`](st-patricks-day-theme/) | Forest green, Irish orange, lucky gold |
+| 🎃 Halloween | [`halloween-theme/`](halloween-theme/) | Midnight purple, pumpkin orange, slime green, emoji typing effects |
 
 ## Installation
 
-### From VSIX (manual)
-1. Download the `.vsix` file
-2. Open VS Code → Extensions (`Ctrl+Shift+X`)
-3. Click `...` → **Install from VSIX...**
-4. Select the file and reload
+Each theme folder contains a prebuilt `.vsix`:
 
-### From source (development)
+1. Open VS Code → Extensions (`Ctrl+Shift+X`)
+2. Click `...` → **Install from VSIX...**
+3. Pick the `.vsix` from the theme folder and reload
+4. Command Palette → **Preferences: Color Theme** → choose the theme
+
+## Development
+
 ```bash
-cd st-patricks-day-theme
 code .
-# Press F5 to launch Extension Development Host
-# Then: Command Palette → Color Theme → ☘️ St. Patrick's Day
+# Run and Debug → pick "St. Patrick's Day Theme" or "Halloween Theme" → F5
 ```
 
-### Build VSIX
+### Build a VSIX
 ```bash
 npm install -g @vscode/vsce
+cd halloween-theme      # or st-patricks-day-theme
 vsce package
 ```
+
+## Adding a new theme
+
+1. Copy an existing theme folder, e.g. `cp -r halloween-theme my-new-theme`
+2. Update `package.json` (`name`, `displayName`, `description`, `keywords`, `contributes.themes`, `repository.directory`)
+3. Edit `themes/<name>-color-theme.json` and `icon.svg`, then render the icon:
+   `rsvg-convert -w 128 -h 128 icon.svg -o icon.png`
+4. Add a launch configuration in `.vscode/launch.json`
+5. Add a row to the table above
 
 ## License
 

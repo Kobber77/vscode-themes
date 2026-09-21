@@ -31,7 +31,8 @@
   "publisher": "Kobber",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Kobber77/vscode-themes",
+    "directory": "st-patricks-day-theme"
   },
   "license": "MIT"
 }
