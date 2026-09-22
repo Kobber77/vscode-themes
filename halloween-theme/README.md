@@ -42,6 +42,10 @@ Effects only run while 🎃 Halloween is the active color theme (setting `hallow
 
 Commands (`Cmd+Shift+P`): **Halloween: Summon Spirits**, **Halloween: Toggle Typing Effects**, **Halloween: Cycle Color Theme**.
 
+## Neovim
+
+Same palette as a Neovim colorscheme, with a matching lualine theme, in [`neovim/`](neovim/). One-liner install and lazy.nvim spec in its [README](neovim/README.md).
+
 ## Installation
 
 ### From VSIX (manual)

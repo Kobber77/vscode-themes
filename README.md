@@ -5,7 +5,7 @@ A collection of VS Code color themes. Each theme is its own extension with its o
 | Theme | Folder | Vibe |
 |-------|--------|------|
 | ☘️ St. Patrick's Day | [`st-patricks-day-theme/`](st-patricks-day-theme/) | Forest green, Irish orange, lucky gold |
-| 🎃 Halloween | [`halloween-theme/`](halloween-theme/) | Midnight purple, pumpkin orange, slime green, emoji typing effects |
+| 🎃 Halloween | [`halloween-theme/`](halloween-theme/) | Midnight purple, pumpkin orange, slime green, emoji typing effects. Also a [Neovim port](halloween-theme/neovim/) |
 
 ## Installation
 
