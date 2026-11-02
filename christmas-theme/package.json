@@ -1,0 +1,237 @@
+{
+  "name": "merry-christmas-theme",
+  "displayName": "🎄 Christmas Theme",
+  "description": "A cozy dark Christmas theme with emoji typing effects, comment emojis, coal and jingle-bell gutter icons, falling snow and a countdown to Dec 25.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "christmas",
+    "xmas",
+    "holiday",
+    "santa",
+    "snow",
+    "red",
+    "green",
+    "dark",
+    "emoji",
+    "effects",
+    "fun"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "🎄 Christmas",
+        "uiTheme": "vs-dark",
+        "path": "./themes/christmas-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "christmas.cycleTheme",
+        "title": "Cycle Color Theme",
+        "category": "Christmas"
+      },
+      {
+        "command": "christmas.toggleEffects",
+        "title": "Toggle Typing Effects",
+        "category": "Christmas"
+      },
+      {
+        "command": "christmas.letItSnow",
+        "title": "Let It Snow",
+        "category": "Christmas"
+      }
+    ],
+    "configuration": {
+      "title": "Christmas",
+      "properties": {
+        "christmas.onlyWhenThemeActive": {
+          "type": "boolean",
+          "default": true,
+          "description": "Only run effects while the 🎄 Christmas color theme is active."
+        },
+        "christmas.typingEffects.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Pop a festive emoji after the cursor while typing."
+        },
+        "christmas.typingEffects.every": {
+          "type": "integer",
+          "default": 4,
+          "minimum": 1,
+          "maximum": 50,
+          "description": "Pop an emoji every N keystrokes."
+        },
+        "christmas.commentEmojis.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show 🎁 after TODO, 🔥 FIXME, 🦌 BUG, 🧝 HACK, 🧨 XXX, 📜 NOTE, ❄️ DEPRECATED in comments."
+        },
+        "christmas.gutterIcons.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Lump of coal in the gutter on error lines, jingle bell on warning lines."
+        },
+        "christmas.statusBar.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the countdown to Christmas in the status bar."
+        },
+        "christmas.saveMessages.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Occasionally flash a festive status bar message on save."
+        },
+        "christmas.cycleThemes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Theme labels the status bar click cycles through. Empty = all installed Kobber themes."
+        }
+      }
+    },
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "yaml",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "shellscript",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "go",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "java",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "cpp",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "csharp",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "sql",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "ruby",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "kotlin",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "swift",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "r",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "toml",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "dockerfile",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "makefile",
+        "path": "./snippets/christmas.code-snippets"
+      },
+      {
+        "language": "powershell",
+        "path": "./snippets/christmas.code-snippets"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "publisher": "Kobber",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kobber77/vscode-themes",
+    "directory": "christmas-theme"
+  },
+  "license": "MIT",
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ]
+}

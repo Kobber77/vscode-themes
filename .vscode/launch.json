@@ -12,6 +12,12 @@
       "type": "extensionHost",
       "request": "launch",
       "args": ["--extensionDevelopmentPath=${workspaceFolder}/halloween-theme"]
+    },
+    {
+      "name": "Christmas Theme",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}/christmas-theme"]
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "Jolly banner": {
+    "prefix": "jolly",
+    "body": [
+      "$LINE_COMMENT 🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁",
+      "$LINE_COMMENT 🎅  ${1:Ho ho ho: festive code below}",
+      "$LINE_COMMENT 🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁🎄🎁",
+      "$0"
+    ],
+    "description": "Christmas comment banner"
+  },
+  "ASCII tree": {
+    "prefix": "xmastree",
+    "body": [
+      "$LINE_COMMENT        *",
+      "$LINE_COMMENT       /.\\\\",
+      "$LINE_COMMENT      /o..\\\\",
+      "$LINE_COMMENT      /..o\\\\",
+      "$LINE_COMMENT     /.o..o\\\\",
+      "$LINE_COMMENT     /...o.\\\\",
+      "$LINE_COMMENT    /..o....\\\\",
+      "$LINE_COMMENT    ^^^[_]^^^   ${1:$TM_FILENAME}",
+      "$0"
+    ],
+    "description": "ASCII Christmas tree comment"
+  },
+  "Naughty list TODO": {
+    "prefix": "naughty",
+    "body": ["$LINE_COMMENT TODO 📜 naughty list: ${1:this hack}, checked twice ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}$0"],
+    "description": "TODO on Santa's naughty list"
+  }
+}

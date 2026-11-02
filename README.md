@@ -6,6 +6,7 @@ A collection of VS Code color themes. Each theme is its own extension with its o
 |-------|--------|------|
 | ☘️ St. Patrick's Day | [`st-patricks-day-theme/`](st-patricks-day-theme/) | Forest green, Irish orange, lucky gold |
 | 🎃 Halloween | [`halloween-theme/`](halloween-theme/) | Midnight purple, pumpkin orange, slime green, emoji typing effects. Also a [Neovim port](halloween-theme/neovim/) |
+| 🎄 Christmas | [`christmas-theme/`](christmas-theme/) | Silent-night navy, Santa red, holly green, star gold, falling snow and emoji typing effects |
 
 ## Installation
 
@@ -20,13 +21,13 @@ Each theme folder contains a prebuilt `.vsix`:
 
 ```bash
 code .
-# Run and Debug → pick "St. Patrick's Day Theme" or "Halloween Theme" → F5
+# Run and Debug → pick "St. Patrick's Day Theme", "Halloween Theme" or "Christmas Theme" → F5
 ```
 
 ### Build a VSIX
 ```bash
 npm install -g @vscode/vsce
-cd halloween-theme      # or st-patricks-day-theme
+cd halloween-theme      # or st-patricks-day-theme, christmas-theme
 vsce package
 ```
 
