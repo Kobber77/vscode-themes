@@ -1,0 +1,31 @@
+{
+  "Lucky banner": {
+    "prefix": "lucky",
+    "body": [
+      "$LINE_COMMENT ☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀",
+      "$LINE_COMMENT 🌈  ${1:May your build be green and your bugs be few}",
+      "$LINE_COMMENT ☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀☘️🍀",
+      "$0"
+    ],
+    "description": "Shamrock comment banner"
+  },
+  "ASCII shamrock": {
+    "prefix": "shamrock",
+    "body": [
+      "$LINE_COMMENT       .-.",
+      "$LINE_COMMENT      (   )",
+      "$LINE_COMMENT   .-. \\\\ / .-.",
+      "$LINE_COMMENT  (   )-+-(   )",
+      "$LINE_COMMENT   '-'  |  '-'",
+      "$LINE_COMMENT        |",
+      "$LINE_COMMENT         \\\\_   ${1:$TM_FILENAME}",
+      "$0"
+    ],
+    "description": "ASCII shamrock comment"
+  },
+  "Leave it to luck TODO": {
+    "prefix": "luck",
+    "body": ["$LINE_COMMENT TODO 🍀 leaving ${1:this one} to luck, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}$0"],
+    "description": "TODO left to the luck of the Irish"
+  }
+}
