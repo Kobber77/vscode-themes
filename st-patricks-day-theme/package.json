@@ -2,7 +2,7 @@
   "name": "st-patricks-day-theme",
   "displayName": "☘️ St. Patrick's Day Theme",
   "description": "A lucky green theme for St. Patrick's Day with emoji typing effects, comment emojis, snake and pot-of-gold gutter icons and a countdown to March 17.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "engines": {
     "vscode": "^1.75.0"
   },

@@ -2,7 +2,7 @@
   "name": "merry-christmas-theme",
   "displayName": "🎄 Christmas Theme",
   "description": "A cozy dark Christmas theme with emoji typing effects, comment emojis, coal and jingle-bell gutter icons, falling snow and a countdown to Dec 25.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.75.0"
   },

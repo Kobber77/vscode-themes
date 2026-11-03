@@ -32,6 +32,8 @@ A cozy VS Code color theme for Christmas: Santa red, holly green and star gold o
 
 ## Effects
 
+![Typing emoji pops, comment emojis and Christmas: Let It Snow](https://raw.githubusercontent.com/Kobber77/vscode-themes/main/christmas-theme/media/demo.gif)
+
 Effects only run while 🎄 Christmas is the active color theme (setting `christmas.onlyWhenThemeActive`).
 
 | Effect | What happens | Setting |

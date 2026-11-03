@@ -31,6 +31,8 @@ A spooky VS Code color theme inspired by Halloween — jack-o'-lanterns, witches
 
 ## Effects
 
+![Typing emoji pops, comment emojis and Halloween: Summon Spirits](https://raw.githubusercontent.com/Kobber77/vscode-themes/main/halloween-theme/media/demo.gif)
+
 Effects only run while 🎃 Halloween is the active color theme (setting `halloween.onlyWhenThemeActive`).
 
 | Effect | What happens | Setting |

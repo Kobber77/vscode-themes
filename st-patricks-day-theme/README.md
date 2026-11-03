@@ -28,6 +28,8 @@ A lucky VS Code color theme inspired by St. Patrick's Day — leprechauns, clove
 
 ## Effects
 
+![Typing emoji pops, comment emojis and St. Patrick's: Find the Pot of Gold](https://raw.githubusercontent.com/Kobber77/vscode-themes/main/st-patricks-day-theme/media/demo.gif)
+
 Effects only run while ☘️ St. Patrick's Day is the active color theme (setting `stpatricks.onlyWhenThemeActive`).
 
 | Effect | What happens | Setting |
