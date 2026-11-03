@@ -2,7 +2,7 @@
   "name": "spooky-halloween-theme",
   "displayName": "🎃 Halloween Theme",
   "description": "A spooky dark theme for Halloween with emoji typing effects, comment emojis, blood-drip gutter icons and a countdown to Oct 31.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -231,5 +231,15 @@
   "main": "./extension.js",
   "activationEvents": [
     "onStartupFinished"
-  ]
+  ],
+  "galleryBanner": {
+    "color": "#14091F",
+    "theme": "dark"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  }
 }

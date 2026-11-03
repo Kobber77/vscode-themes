@@ -1,2 +1,3 @@
 *.vsix
 .vscode/**
+media/screenshot.png

@@ -1,5 +1,7 @@
 # ☘️ St. Patrick's Day Theme
 
+![☘️ St. Patrick's Day theme with comment emojis, gutter icons and the countdown in the status bar](https://raw.githubusercontent.com/Kobber77/vscode-themes/main/st-patricks-day-theme/media/screenshot.png)
+
 A lucky VS Code color theme inspired by St. Patrick's Day — leprechauns, clovers, and shamrocks, built around the Irish flag palette.
 
 ## Color Palette

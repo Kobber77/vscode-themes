@@ -1,5 +1,7 @@
 # 🎃 Halloween Theme
 
+![🎃 Halloween theme with comment emojis, gutter icons and the countdown in the status bar](https://raw.githubusercontent.com/Kobber77/vscode-themes/main/halloween-theme/media/screenshot.png)
+
 A spooky VS Code color theme inspired by Halloween — jack-o'-lanterns, witches, and slime on a midnight-purple night.
 
 ## Color Palette

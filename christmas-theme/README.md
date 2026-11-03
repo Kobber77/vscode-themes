@@ -1,5 +1,7 @@
 # 🎄 Christmas Theme
 
+![🎄 Christmas theme with comment emojis, gutter icons and the countdown in the status bar](https://raw.githubusercontent.com/Kobber77/vscode-themes/main/christmas-theme/media/screenshot.png)
+
 A cozy VS Code color theme for Christmas: Santa red, holly green and star gold on a silent-night navy sky.
 
 ## Color Palette
